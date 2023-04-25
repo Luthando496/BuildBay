@@ -1,21 +1,24 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
+
 
 const Navbar = () => {
   return (
-    <nav className='w-full p-8 bg-white/40  border-b shadow-xl'>
+    <nav className='w-full p-8 bg-white/40  border-b shadow-md'>
         <div className="w-full flex justify-between items-center">
             <div className="flex gap-10 items-center">
-                <a href="#" className="text-2xl font-bold tracking-[3px] text-amber-700/40">BuildBay</a>
+                <Link to="/" className="text-2xl font-bold tracking-[3px] text-amber-700/40">BuildBay</Link>
 
                 <ul className="flex gap-6 items-center">
+                    <li className="">
+                        <Link  to="/about-us" className="text-xl font-semibold text-black/40">About</Link>
+                    </li>
                     <li className="">
                         <a href="#" className="text-xl font-semibold text-black/40">Home</a>
                     </li>
                     <li className="">
-                        <a href="#" className="text-xl font-semibold text-black/40">Menu</a>
-                    </li>
-                    <li className="">
-                        <a href="#" className="text-xl font-semibold text-black/40">Pages</a>
+                        <Link  to="/projects" className="text-xl font-semibold text-black/40">Projects</Link>
                     </li>
                     <li className="">
                         <a href="#" className="text-xl font-semibold text-black/40">News</a>

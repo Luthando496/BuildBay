@@ -38,12 +38,17 @@ padding: 3rem 2rem;
 
 
 .about{
-  background:linear-gradient(rgba(34, 116, 240, 0.327),rgba(202, 200, 179, 0.555)) ,url('https://images.unsplash.com/photo-1582540730843-f4418d96ccbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvbnN0cnVjdGlvbiUyMHdvcmtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+  background:linear-gradient(rgba(239, 240, 241, 0.685),rgba(245, 245, 241, 0.849)) ,url('https://images.unsplash.com/photo-1582540730843-f4418d96ccbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvbnN0cnVjdGlvbiUyMHdvcmtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+
+.img img{
+  width:100%;
+  height: 100%;
+}
 
 /* @layer components {
   .btn-primary {
