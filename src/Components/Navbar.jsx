@@ -9,36 +9,22 @@ const Navbar = () => {
         <div className="w-full flex justify-between items-center">
             <div className="flex gap-10 items-center">
                 <Link to="/" className="text-2xl font-bold tracking-[3px] text-amber-700/40">BuildBay</Link>
-
-                <ul className="flex gap-6 items-center">
+            </div>
+            <ul className="flex gap-6 items-center">
                     <li className="">
                         <Link  to="/about-us" className="text-xl font-semibold text-black/40">About</Link>
                     </li>
                     <li className="">
-                        <a href="#" className="text-xl font-semibold text-black/40">Home</a>
+                        <Link to="/" className="text-xl font-semibold text-black/40">Home</Link>
                     </li>
                     <li className="">
                         <Link  to="/projects" className="text-xl font-semibold text-black/40">Projects</Link>
                     </li>
                     <li className="">
-                        <a href="#" className="text-xl font-semibold text-black/40">News</a>
+                        <Link to="/about/us" className="text-xl font-semibold text-black/40">What We Do</Link>
                     </li>
-                    <li className="">
-                        <a href="#" className="text-xl font-semibold text-black/40">Shop</a>
-                    </li>
-                </ul>
-            </div>
+            </ul>
 
-            <div className="flex gap-8">
-                <ul className="flex items-center gap-8">
-                    <li className="">
-                        <a href="#" className="text-xl font-light">Login</a>
-                    </li>
-                    <li className="">
-                        <a href="#" className="text-xl font-light text-sky-600">Getting Started</a>
-                    </li>
-                </ul>
-            </div>
         </div>
 
     </nav>

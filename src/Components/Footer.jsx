@@ -1,4 +1,7 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
+
 
 const Footer = () => {
   return (
@@ -19,22 +22,16 @@ const Footer = () => {
         <h1 className="text-white font-semibold uppercase text-xl font-roboto">Navigation</h1>
         <ul className="flex flex-col gap-4">
             <li className="">
-                <a href="#" className="text-white hover:text-sky-400 duration-300 capitalize">Home</a>
+                <Link to="/" className="text-white hover:text-sky-400 duration-300 capitalize">Home</Link>
             </li>
             <li className="">
-                <a href="#" className="text-white hover:text-sky-400 duration-300 capitalize">Projects</a>
+                <Link to="/projects" className="text-white hover:text-sky-400 duration-300 capitalize">Projects</Link>
             </li>
             <li className="">
-                <a href="#" className="text-white hover:text-sky-400 duration-300 capitalize">What we do</a>
+                <Link to="/about/us" className="text-white hover:text-sky-400 duration-300 capitalize">What we do</Link>
             </li>
             <li className="">
-                <a href="#" className="text-white hover:text-sky-400 duration-300 capitalize">About Us</a>
-            </li>
-            <li className="">
-                <a href="#" className="text-white hover:text-sky-400 duration-300 capitalize">Blog</a>
-            </li>
-            <li className="">
-                <a href="#" className="text-white hover:text-sky-400 duration-300 capitalize">Contact Us</a>
+                <Link to="/about-us" className="text-white hover:text-sky-400 duration-300 capitalize">About Us</Link>
             </li>
         </ul>
     </div>

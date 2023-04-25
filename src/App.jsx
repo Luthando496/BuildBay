@@ -18,6 +18,7 @@ const Sea = lazy(() => import('./Pages/Sea'));
 const Eco = lazy(() => import('./Pages/Eco'));
 const Clean = lazy(() => import('./Pages/Clean'));
 const Renovation = lazy(() => import('./Pages/Renovation'));
+const What = lazy(() => import('./Pages/What'));
 import {Vortex} from 'react-loader-spinner'
 
 
@@ -42,6 +43,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about-us" element={<About />} />
       <Route path="/projects" element={<Projects />} />
+      <Route path="/about/us" element={<What />} />
       <Route path="/projects/modern-building" element={<Modern />} />
       <Route path="/projects/interior-design" element={<Interior />} />
       <Route path="/projects/corporate-concept" element={<Corporate />} />
