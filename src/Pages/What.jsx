@@ -21,7 +21,7 @@ const What = () => {
 
 
         <section className="w-full my-14">
-            <div className="w-full px-14 grid grid-cols-4 gap-8">
+            <div className="w-full px-4 lg:px-14 grid grid-cols-4 gap-8">
                 {/* left */}
             <div className="hidden lg:block col-span-1 w-full gap-3">
             <ul className="col-span-1 flex-col border-r">
@@ -52,10 +52,10 @@ const What = () => {
             </div>
             {/*  */}
             {/* right */}
-            <div className="col-span-3 w-full">
+            <div className="col-span-4 lg:col-span-3 w-full">
                 {/* tab 0 */}
             <div className={`${tab === 0 ? 'block' :'hidden' } col-span-2 px-6`}>
-            <div className="flex gap-8">
+            <div className="flex flex-col lg:flex-row gap-8">
             {/* card */}
             <div className="w-full space-y-4">
             <div className="img w-full h-[300px]">
@@ -98,7 +98,7 @@ const What = () => {
             {/* //  */}
             {/* tab 1 */}
             <div className={`${tab === 1 ? 'block' :'hidden' } col-span-2 px-6`}>
-            <div className="flex gap-8">
+            <div className="flex flex-col lg:flex-row gap-8">
             {/* card */}
             <div className="w-full space-y-4">
             <div className="img w-full h-[300px]">
@@ -206,7 +206,7 @@ const What = () => {
             </div>
             {/* tab 3 */}
             <div className={`${tab === 3 ? 'block' :'hidden' } col-span-2 px-6`}>
-            <div className="flex gap-8">
+            <div className="flex flex-col lg:flex-row gap-8">
             {/* card */}
             <div className="w-full space-y-4">
             <div className="img w-full h-[300px]">
@@ -314,7 +314,7 @@ const What = () => {
             {/* //  */}
               {/* tab 0 */}
               <div className={`${tab === 5 ? 'block' :'hidden' } col-span-2 px-6`}>
-            <div className="flex gap-8">
+            <div className="flex flex-col lg:flex-row gap-8">
             {/* card */}
             <div className="w-full space-y-4">
             <div className="img w-full h-[300px]">
@@ -357,7 +357,7 @@ const What = () => {
             {/* //  */}
             {/* tab 1 */}
             <div className={`${tab === 6 ? 'block' :'hidden' } col-span-2 px-6`}>
-            <div className="flex gap-8">
+            <div className="flex flex-col lg:flex-row gap-8">
             {/* card */}
             <div className="w-full space-y-4">
             <div className="img w-full h-[300px]">
