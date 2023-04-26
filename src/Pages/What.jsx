@@ -23,8 +23,8 @@ const What = () => {
         <section className="w-full my-14">
             <div className="w-full px-14 grid grid-cols-4 gap-8">
                 {/* left */}
-            <div className="col-span-1 w-full gap-3">
-            <ul className="hidden lg:block col-span-1 flex-col border-r">
+            <div className="hidden lg:block col-span-1 w-full gap-3">
+            <ul className="col-span-1 flex-col border-r">
                 <li onClick={() => setTab(0)} className={`${tab === 0 ? 'border-l-8 border-l-yellow-500 ' :'border-0' } py-4 cursor-pointer border-b hover:text-yellow-400 text-black/70 duration-300`}>
                     <p className="text-xl uppercase text-right pr-6">All Services</p>
                 </li>
