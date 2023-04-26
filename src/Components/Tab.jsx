@@ -113,6 +113,87 @@ const Tab = () => {
 
             </div>
             {/* //  */}
+            {/* tab 0 */}
+            <div className={`${tab === 3 ? 'block' :'hidden' } col-span-2 px-6`}>
+            <h1 className="text-black/70 text-2xl tracking-[2px] font-bold uppercase font-roboto">WHAT WE Do For You</h1>
+
+            <ul className="my-8 flex flex-col gap-10">
+                <li className="flex gap-6 items-center">
+                <BsFillCheckSquareFill size={20}  className='' /><p className="text-md capitalize text-black/70">Green houses</p>
+                </li>
+                <li className="flex gap-6 items-center">
+                <BsFillCheckSquareFill size={20}  className='' /><p className="text-md capitalize text-black/70">Construction building</p>
+                </li>
+                <li className="flex gap-6 items-center">
+                <BsFillCheckSquareFill size={20}  className='' /><p className="text-md capitalize text-black/70">Alternative tech</p>
+                </li>
+            </ul>
+
+            <div className="mb-4">
+                <p className="text-sm text-black/60">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat quasi molestias qui hic error, officiis suscipit laudantium reprehenderit accusamus consectetur quia! Provident neque necessitatibus voluptatibus sequi sapiente perspiciatis voluptatem!
+                </p>
+            </div>
+            <p className="text-sm text-black/60">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore corporis omnis asperiores aut fugit illum nemo facilis. Et, doloribus culpa.
+                </p>
+
+            </div>
+            {/* //  */}
+            {/* tab 0 */}
+            <div className={`${tab === 4 ? 'block' :'hidden' } col-span-2 px-6`}>
+            <h1 className="text-black/70 text-2xl tracking-[2px] font-bold uppercase font-roboto">WHAT WE Do For You</h1>
+
+            <ul className="my-8 flex flex-col gap-10">
+                <li className="flex gap-6 items-center">
+                <BsFillCheckSquareFill size={20}  className='' /><p className="text-md capitalize text-black/70">Green houses</p>
+                </li>
+                <li className="flex gap-6 items-center">
+                <BsFillCheckSquareFill size={20}  className='' /><p className="text-md capitalize text-black/70">Construction building</p>
+                </li>
+                <li className="flex gap-6 items-center">
+                <BsFillCheckSquareFill size={20}  className='' /><p className="text-md capitalize text-black/70">Alternative tech</p>
+                </li>
+            </ul>
+
+            <div className="mb-4">
+                <p className="text-sm text-black/60">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat quasi molestias qui hic error, officiis suscipit laudantium reprehenderit accusamus consectetur quia! Provident neque necessitatibus voluptatibus sequi sapiente perspiciatis voluptatem!
+                </p>
+            </div>
+            <p className="text-sm text-black/60">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore corporis omnis asperiores aut fugit illum nemo facilis. Et, doloribus culpa.
+                </p>
+
+            </div>
+            {/* //  */}
+            {/* tab 0 */}
+            <div className={`${tab === 5 ? 'block' :'hidden' } col-span-2 px-6`}>
+            <h1 className="text-black/70 text-2xl tracking-[2px] font-bold uppercase font-roboto">WHAT WE Do For You</h1>
+
+            <ul className="my-8 flex flex-col gap-10">
+                <li className="flex gap-6 items-center">
+                <BsFillCheckSquareFill size={20}  className='' /><p className="text-md capitalize text-black/70">Green houses</p>
+                </li>
+                <li className="flex gap-6 items-center">
+                <BsFillCheckSquareFill size={20}  className='' /><p className="text-md capitalize text-black/70">Construction building</p>
+                </li>
+                <li className="flex gap-6 items-center">
+                <BsFillCheckSquareFill size={20}  className='' /><p className="text-md capitalize text-black/70">Alternative tech</p>
+                </li>
+            </ul>
+
+            <div className="mb-4">
+                <p className="text-sm text-black/60">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat quasi molestias qui hic error, officiis suscipit laudantium reprehenderit accusamus consectetur quia! Provident neque necessitatibus voluptatibus sequi sapiente perspiciatis voluptatem!
+                </p>
+            </div>
+            <p className="text-sm text-black/60">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore corporis omnis asperiores aut fugit illum nemo facilis. Et, doloribus culpa.
+                </p>
+
+            </div>
+            {/* //  */}
 
             </div>
             {/*  */}
