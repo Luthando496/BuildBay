@@ -53,7 +53,7 @@ const Header = () => {
             <div className="space-y-4 md:w-[50%] mx-auto text-center">
                 <h1 className="text-yellow-500 text-xl capitalize font-thin">We Help You Construct Your Home</h1>
                 <h1 className="text-xl md:text-2xl lg:text-5xl font-light font-castoro uppercase text-white">Realize your project</h1>
-                <h3 className="text-sm md:text-xl l uppercase font-semibold text-white">We offer free consulting and the best project management<br/>
+                <h3 className="text-sm md:text-xl lg:text-xl uppercase font-semibold text-white">We offer free consulting and the best project management<br/>
                 for your idea, 100% delivery guaranteed. <br />
                 See for yourself, get on board now. <br/>
                 </h3>

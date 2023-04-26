@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className='w-full'>
-    <div className="w-full py-8 space-y-7 lg:space-y-0 md:px-6 lg:px-32 bg-black/80 grid grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="w-full py-8 px-8 space-y-7 lg:space-y-0 md:px-6 lg:px-32 bg-black/80 grid grid-cols-2 lg:grid-cols-4 gap-8">
 
     {/* About Us */}
     <div className="space-y-6">
@@ -90,7 +90,7 @@ const Footer = () => {
     </div>
 
     <div className="bg-black w-full py-8">
-        <p className="text-md text-white text-center">BuildWise  theme | © 2014 BuildWise, All rights reserved</p>
+        <p className="text-md text-white text-center">BuildWise  theme | © 2023 BuildWise, All rights reserved</p>
     </div>
 
     </footer>
