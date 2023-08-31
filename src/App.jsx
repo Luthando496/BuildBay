@@ -5,6 +5,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import {Routes,Route} from 'react-router-dom'
+const  ScrollToTop = lazy(() => import('./Utils/ScrollToTop'));
 const Home = lazy(() => import('./Pages/Home'));
 const Footer = lazy(() => import('./Components/Footer'));
 const Navbar = lazy(() => import('./Components/Navbar'));
@@ -53,9 +54,9 @@ function App() {
       <Route path="/projects/inside-renovation" element={<Renovation />} />
       <Route path="/projects/clean-lines" element={<Clean />} />
     </Routes>
+    <ScrollToTop />
 
     </Suspense>
-
     <Footer />
 
     </>
